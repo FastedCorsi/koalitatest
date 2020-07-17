@@ -4,6 +4,7 @@ import { createClient } from "contentful";
 import Post from "../components/post";
 import config from "../config.json";
 
+
 // Instantiate the app client
 const client = createClient({
   space: config.space,
