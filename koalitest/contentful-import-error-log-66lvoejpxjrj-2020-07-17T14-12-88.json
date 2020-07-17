@@ -1,0 +1,134 @@
+[
+  {
+    "ts": "2020-07-17T12:13:08.942Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "66lvoejpxjrj"
+            }
+          },
+          "id": "7hlEFYl579kGDEEbfylxvC",
+          "type": "Asset",
+          "createdAt": "2020-07-17T12:12:44.906Z",
+          "updatedAt": "2020-07-17T12:12:44.906Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5UeNSkuZDu8IEusv9hErxo"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5UeNSkuZDu8IEusv9hErxo"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "The flash"
+          },
+          "description": {
+            "en-US": "The flash"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/b7km0t64rdcd/7hlEFYl579kGDEEbfylxvC/1cb85e713fc4c534c46a339b1a1e0604/flash.jpg",
+              "fileName": "flash.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "C:\\Users\\ADMIN Aflokkat 22\\Desktop\\koalitatest\\test\\koalitest\\node_modules\\contentful-management\\dist\\contentful-management.node.js:10522:21",
+        "processTicksAndRejections (internal/process/task_queues.js:97:5)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-07-17T12:13:09.403Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "66lvoejpxjrj"
+            }
+          },
+          "id": "6PsEXzp4l2Doyqm1F41opi",
+          "type": "Asset",
+          "createdAt": "2020-07-17T12:12:44.908Z",
+          "updatedAt": "2020-07-17T12:12:44.908Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5UeNSkuZDu8IEusv9hErxo"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5UeNSkuZDu8IEusv9hErxo"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Batman"
+          },
+          "description": {
+            "en-US": "About batman"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/b7km0t64rdcd/6PsEXzp4l2Doyqm1F41opi/7002dce32b08986903fb5681861bc765/batman.jpg",
+              "fileName": "batman.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "C:\\Users\\ADMIN Aflokkat 22\\Desktop\\koalitatest\\test\\koalitest\\node_modules\\contentful-management\\dist\\contentful-management.node.js:10522:21",
+        "processTicksAndRejections (internal/process/task_queues.js:97:5)"
+      ]
+    }
+  }
+]
